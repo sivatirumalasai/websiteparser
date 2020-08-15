@@ -46,5 +46,9 @@ class WebsiteParserController extends Controller
             }
         }
     }
+    public function website()
+    {
+        return view('website');
+    }
 
 }
